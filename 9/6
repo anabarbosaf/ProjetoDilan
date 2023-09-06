@@ -1,0 +1,28 @@
+principais modelos de estimativa:
+- predição: adivinhar o futuro por sentimento
+- previsão: definir algo com base em probabilidade (possibilidade de interferência para mudança futura)
+- projeção: definir algo com base em um histórico passado (por analogia).
+
+
+Estimativa direta: atribui um valor direto
+Estimativa paramétrica: baseado nos dados que opera, usa um modelo matemático para estimativa
+
+COCOMO é o modelo de estimativa mais complexo de ser aplicado. Muito usado fora do Brasil.
+
+
+modelo apf
+Componente funcional básico
+  - Categoria
+    - Interação funcao de transacao - operações do sistema
+      - EE - update, insert, delete
+      - SE - transforma e add dados
+      - CE - query
+    - Armazenamento funcao de dados - base de dados
+      - Arquivo lógico interno (ALI)
+      - Arquivo de interface externa (AIE) - aquilo que o usuário consegue ver
+
+  Exemplo: 
+  Base histórico de preço - ALI
+  Base de produto - ALI
+  API de extração
+    - Base Export de produto - AIE
